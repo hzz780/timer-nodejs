@@ -1,5 +1,6 @@
 #!/bin/bash
-echo '1111';
-#cd /path/to/your/project || exit
-#yarn stop
+echo 'start to restart server';
+#cd /opt/workspace/aelf-block-api || exit
+#yarn stop && sleep 5
+#echo 'server stopped'
 #yarn start
